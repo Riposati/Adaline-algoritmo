@@ -1,0 +1,139 @@
+vetor pesos sinapticos original:
+0.367504
+0.074435
+0.876522
+0.478469
+0.817713
+0.356395
+0.596057
+0.235023
+0.968535
+0.144322
+0.005127
+0.206885
+0.902829
+0.450148
+0.787164
+0.686239
+0.217139
+0.564562
+0.328349
+0.239357
+0.537278
+0.136174
+0.605213
+0.669790
+0.754051
+0.088748
+0.558092
+0.522141
+0.636280
+0.407239
+0.857448
+0.408612
+0.976959
+0.324595
+0.468886
+0.938627
+**************
+vetor pesos sinapticos final:
+-0.250000
+0.917011
+-0.238954
+-0.899200
+-0.609682
+0.331214
+0.382395
+5.784380
+6.053071
+0.601287
+0.479800
+-0.168967
+0.226752
+0.838997
+-0.313087
+-1.161036
+0.615574
+-0.315070
+-0.246877
+0.195906
+0.245423
+-0.176218
+-0.143248
+0.109448
+-0.331499
+0.144350
+-2.050441
+0.952018
+-0.409685
+0.496894
+0.254842
+0.223254
+0.962927
+0.178209
+-0.190125
+-0.946701
+@@@@@@@@@@@@@@@@
+
+qtd epocas = 76219
+
+0.969400 pertence a classe A
+0.690900 pertence a classe A
+0.433400 pertence a classe A
+3.496500 pertence a classe A
+0.542700 pertence a classe B
+1.383200 pertence a classe B
+0.639000 pertence a classe B
+4.035200 pertence a classe B
+0.608100 pertence a classe A
+-0.919600 pertence a classe B
+0.592500 pertence a classe A
+0.101600 pertence a classe A
+-0.161800 pertence a classe B
+0.469400 pertence a classe A
+0.203000 pertence a classe A
+3.011700 pertence a classe A
+0.187000 pertence a classe A
+-0.257800 pertence a classe B
+0.612400 pertence a classe A
+1.774900 pertence a classe A
+0.489100 pertence a classe B
+-0.527600 pertence a classe A
+0.437800 pertence a classe B
+0.643900 pertence a classe B
+0.377700 pertence a classe B
+2.014900 pertence a classe B
+0.742300 pertence a classe B
+3.393200 pertence a classe B
+1.149800 pertence a classe B
+-0.406700 pertence a classe A
+0.246900 pertence a classe B
+1.586600 pertence a classe B
+0.932500 pertence a classe B
+1.095000 pertence a classe B
+1.035900 pertence a classe B
+3.359100 pertence a classe B
+0.506000 pertence a classe B
+1.331700 pertence a classe B
+0.922200 pertence a classe B
+3.717400 pertence a classe B
+0.049700 pertence a classe B
+-2.065600 pertence a classe A
+0.612400 pertence a classe B
+-0.658500 pertence a classe A
+0.400400 pertence a classe A
+3.536900 pertence a classe A
+0.976600 pertence a classe A
+5.353200 pertence a classe A
+-0.187400 pertence a classe A
+1.334300 pertence a classe B
+0.537400 pertence a classe B
+3.218900 pertence a classe B
+0.506000 pertence a classe B
+1.331700 pertence a classe B
+0.922200 pertence a classe B
+3.717400 pertence a classe B
+1.637500 pertence a classe A
+-0.791100 pertence a classe B
+0.753700 pertence a classe A
+0.551500 pertence a classe A
