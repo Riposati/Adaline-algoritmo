@@ -85,6 +85,8 @@ double eqm(double *w, double entradas[36][4] ,double *saidasDesejadas){
 
     eqmV /= p;
 
+    printf("%lf,\n",eqmV);
+
     return eqmV;
 }
 
@@ -111,7 +113,6 @@ int main()
 
     /// algoritmo de treinamento regra delta
     do{
-
         eqmAnterior = eqm(w,entradas,saidasDesejadas);
 
         for(i=0;i<36;i++){
@@ -135,7 +136,7 @@ int main()
         /*printf("eqmAtual = %lf\n",eqmAtual);
         printf("eqmAnterior = %lf\n",eqmAnterior);*/
 
-    }while(eqmAnterior >= precisao && eqmAtual >= precisao);
+    }while(eqmAnterior >= precisao && eqmAtual >= precisao && contEpocas <= barreiraDeSegurancaEpocas);
 
     printf("vetor pesos sinapticos final:\n");
     for(i=0;i<36;i++){
@@ -169,9 +170,7 @@ int main()
                 printf("%lf pertence a classe B\n",testes[i][j]);
             }
     }
-
-    printf("\n");
-    system("pause");
+    /*printf("\n");
+    system("pause");*/
     return 0;
-
 }
