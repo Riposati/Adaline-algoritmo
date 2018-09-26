@@ -92,7 +92,7 @@ double eqm(double *w, double entradas[36][4] ,double *saidasDesejadas){
 
 int main()
 {
-    int barreiraDeSegurancaEpocas = 100000; // se em 1000 épocas nao convergir a rede para pois o conjunto nao é linearmente separável
+    int barreiraDeSegurancaEpocas = 20000; // se em 1000 épocas nao convergir a rede para pois o conjunto nao é linearmente separável
 
     double entradas[36][4];
     inicializaEntradas(entradas);
@@ -136,7 +136,7 @@ int main()
         /*printf("eqmAtual = %lf\n",eqmAtual);
         printf("eqmAnterior = %lf\n",eqmAnterior);*/
 
-    }while(eqmAnterior >= precisao && eqmAtual >= precisao && contEpocas <= barreiraDeSegurancaEpocas);
+    }while( (abs(eqmAnterior-eqmAtual >= precisao)) && contEpocas <= barreiraDeSegurancaEpocas);
 
     printf("vetor pesos sinapticos final:\n");
     for(i=0;i<36;i++){
