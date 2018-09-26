@@ -76,23 +76,19 @@ double eqm(double *w, double entradas[36][4] ,double *saidasDesejadas){
         u = 0.0;
 
         for(j=0;j<4;j++){
-
             u += w[i]*entradas[i][j]; /// produto escalar dos pesos e das entradas
         }
-
         eqmV += (saidasDesejadas[i]- u)  * (saidasDesejadas[i]- u);
     }
-
     eqmV /= p;
-
-    printf("%lf,",eqmV);
+    //printf("%lf,",eqmV);
 
     return eqmV;
 }
 
 int main()
 {
-    int barreiraDeSegurancaEpocas = 20000; // se em 1000 épocas nao convergir a rede para pois o conjunto nao é linearmente separável
+    int barreiraDeSegurancaEpocas = 20000; // se em 20000 épocas nao convergir a rede para pois o conjunto nao é linearmente separável
 
     double entradas[36][4];
     inicializaEntradas(entradas);
@@ -144,9 +140,7 @@ int main()
         printf("%lf\n",w[i]);
     }
     printf("@@@@@@@@@@@@@@@@\n\n");
-
     printf("qtd epocas = %d\n\n",contEpocas);
-
     // Fase de operação
     double testes[15][4] =
     {
@@ -170,7 +164,5 @@ int main()
                 printf("%lf pertence a classe B\n",testes[i][j]);
             }
     }
-    /*printf("\n");
-    system("pause");*/
     return 0;
 }
