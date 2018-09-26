@@ -85,7 +85,7 @@ double eqm(double *w, double entradas[36][4] ,double *saidasDesejadas){
 
     eqmV /= p;
 
-    printf("%lf,\n",eqmV);
+    printf("%lf,",eqmV);
 
     return eqmV;
 }
